@@ -1,0 +1,11 @@
+version: '2'
+services:
+  todo-postgresql:
+    image: postgres:12.1
+    # volumes:
+    #     - ~/volumes/jhipster/todo/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=todo
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432

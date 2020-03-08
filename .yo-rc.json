@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.nttdata.ta.todo"
+    },
+    "jhipsterVersion": "6.7.1",
+    "applicationType": "monolith",
+    "baseName": "todo",
+    "packageName": "com.nttdata.ta.todo",
+    "packageFolder": "com/nttdata/ta/todo",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YWI5YWUzYmZjMTBjZGEyYmIzODc2MTM2MGZlNzYyNDIyOGMxZTIxNDg3NTZjNDg0Yjc1ZDM3ZDk4YWIxYzFhNjA4MTgxN2QxZjQwMzQxYmVlNjEyMmQzZjA2ZmMzMjZlZjVkZWVlZmM3MzRlNWU0OTk2MTJiMjNmZmFlNTFiNTM=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1583657914891,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}
