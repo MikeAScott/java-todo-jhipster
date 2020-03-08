@@ -1,0 +1,6 @@
+entity ToDo {
+	description String
+    byDate LocalDate
+    done Boolean
+}
+
